@@ -2,6 +2,9 @@ import React from 'react'
 const Navbar = () => {
     return (
         <>
+        <div>
+        
+        </div>
 
             <nav class="navbar navbar-expand-lg navbar-light" style={{ backgroundColor: 'white',marginBottom:'780px',width:'1320px',marginLeft:'-80px',display:'flex',marginTop:'-30px' }}>
                 <div class="container-fluid">
