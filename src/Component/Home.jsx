@@ -8,23 +8,26 @@ import construction from '../assets/construction.jpeg'
 import luxery from '../assets/luxery.jpeg'
 import eco from '../assets/eco.jpeg'
 import historic from '../assets/historic.jpeg'
+import Box from '../assets/Box.jpeg'
 
 const Home = () => {
     return (
         <>
             <section>
-            <div className='container mt-5' >
-                    <div className='row d-flex'>
-                        <div className='col-md-6 ' style={{padding:'10px'}}>
-                            <div className='left text-white'>
-                                <h2>Skyrocket Your <br /> Finance Career</h2>
-                                <p className='mt-4 lh-1.5'>Learn industry-relevent skills from top mentors.<br /> Network with aspirational peer group</p>
-                                <button type='button' className='btn text-white shadow-none mt-3' style={{ backgroundColor: '#FF7D33 ', width: '270px', height: '50px', borderRadius: '20px' }}>View courses</button>
-                            </div>
-                        </div>
-                        </div>
                 <div className='Home'>
-                    <img src={house} alt='img' style={{ width: '1460px', height: '600px', marginTop: '-1000px', marginLeft: '-200px' }} />
+                    <img src={house} alt='img' style={{ width: '1370px', height: '550px', marginTop: '-1000px', marginLeft: '-120px' }} />
+                    <div>
+                    <img src={Box} alt='img' style={{ width: '1060px', height: '80px', marginTop: '-700px', marginRight: '70px',borderRadius:'10px' }} />
+                    <button class="btn btn-danger shadow-none" style={{ width: '80px',marginRight:'40px',marginTop:'-930px',borderRadius:'20px' }}>Rent</button>
+                    <button class="btn btn-danger shadow-none" style={{ width: '80px',marginRight:'40px',marginTop:'-930px',backgroundColor:'white',color:'black',borderRadius:'20px' }}>Buy</button>
+                    <button class="btn btn-danger shadow-none" style={{ width: '80px',marginRight:'120px',marginTop:'-930px',backgroundColor:'white',color:'black',borderRadius:'20px' }}>Sell</button>
+                    <div style={{marginTop:'-750px',color:'white',marginLeft:'-40px',justifyContent:'space-evenly'}}>
+                    <h1>Find the Perfect Place<br/> to Call Home</h1>
+
+                        <p className='mt-4 lh-1.5'style={{color:'white'}}>Explore a wide range of properties in the most desirable locations.Whether you’re<br/> looking for a cozy apartment,
+                        a spacious family home, or a luxurious<br/> estate, we have listings to suit every lifestyle and budget.</p>
+                    </div>
+                    </div>
                 </div>
                 <div className='row d-flex' style={{ marginTop: '-235px', backgroundColor: 'lightgrey', width: '1410px', marginLeft: '-150px', height: '150px', padding: '30px' }}>
                     <div className='col-md-3'>
@@ -96,8 +99,6 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                </div>
-
             </section>
         </>
     )
